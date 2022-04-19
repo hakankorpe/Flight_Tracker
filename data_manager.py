@@ -1,8 +1,8 @@
 import requests
 import os
 
-sheety_endpoints = "https://api.sheety.co/a29c5975c68e176c03f28f5ff429b360/flightDeals2/prices"
-sheety_endpoints_2 = "https://api.sheety.co/a29c5975c68e176c03f28f5ff429b360/flightDeals2/users"
+sheety_endpoints = os.environ['sheety_endpoints1']
+sheety_endpoints_2 = os.environ['sheety_endpoints2']
 
 SHEETY_USERNAME = os.environ['sheety_username']
 SHEETY_PASS = os.environ['sheety_pass']
